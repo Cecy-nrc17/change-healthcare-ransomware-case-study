@@ -2,7 +2,7 @@
 
 Estudo de caso em cibersegurança desenvolvido a partir de uma atividade proposta pelo programa Mulher Digital.
 
-Este repositório reúne uma investigação baseada em fontes públicas sobre o ataque de ransomware que afetou a Change Healthcare em 2024. O objetivo foi compreender o que aconteceu, observar os impactos sobre a organização e os serviços de saúde e relacionar o caso aos fundamentos de segurança, continuidade e resposta a incidentes.
+Este repositório reúne uma investigação estudantil baseada em fontes públicas sobre o ataque de ransomware que afetou a Change Healthcare em 2024. O objetivo foi compreender o que aconteceu, observar os impactos sobre a organização e os serviços de saúde e relacionar o caso aos fundamentos de segurança, continuidade e resposta a incidentes.
 
 ## Documento completo
 
