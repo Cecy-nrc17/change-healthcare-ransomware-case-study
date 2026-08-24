@@ -2,13 +2,11 @@
 
 Estudo de caso em cibersegurança desenvolvido a partir de uma atividade proposta pelo programa Mulher Digital.
 
-Este repositório reúne uma investigação estudantil baseada em fontes públicas sobre o ataque de ransomware que afetou a Change Healthcare em 2024. O objetivo foi compreender o que aconteceu, observar os impactos sobre a organização e os serviços de saúde e relacionar o caso aos fundamentos de segurança, continuidade e resposta a incidentes.
+Este repositório reúne uma investigação estudantil baseada em fontes públicas sobre o ataque de ransomware que afetou a Change Healthcare em 2024. O objetivo foi compreender o que aconteceu, observar os impactos sobre a organização e os serviços de saúde e relacionar o caso aos fundamentos de cibersegurança, continuidade e resposta a incidentes estudados no programa.
 
 ## Documento completo
 
 [Acesse a análise completa em PDF](<Análise do ataque de ransomware à Change Healthcare (2024).pdf>).
-
-O PDF foi incluído no repositório sem alterações em relação à versão final revisada.
 
 ## Resumo da investigação
 
@@ -18,7 +16,7 @@ As fontes consultadas confirmam o uso de credenciais comprometidas, mas não exp
 
 O incidente afetou principalmente dois princípios da segurança da informação:
 
-- **Confidencialidade:** dados pessoais e de saúde foram retirados do ambiente. O HHS consolidou posteriormente o total de 192,7 milhões de pessoas afetadas.
+- **Confidencialidade:** dados pessoais e de saúde foram retirados do ambiente. O HHS confirmou posteriormente o total de 192,7 milhões de pessoas afetadas.
 - **Disponibilidade:** serviços de prescrição, autorização, faturamento, processamento de solicitações e pagamentos ficaram indisponíveis, atingindo hospitais, farmácias, consultórios e outros prestadores.
 
 A posição central da Change Healthcare ampliou o impacto. A interrupção de uma única plataforma alcançou muitas organizações que dependiam dela para atividades administrativas e financeiras relacionadas ao atendimento em saúde.
@@ -35,7 +33,7 @@ Com base nas informações públicas encontradas, a resposta incluiu:
 - monitoramento posterior e análise dos arquivos retirados;
 - confirmação do pagamento de aproximadamente US$ 22 milhões em resgate.
 
-Mandiant e Palo Alto Networks foram citadas entre as empresas que participaram da resposta. Os produtos específicos utilizados não foram divulgados. No estudo completo, Splunk e CrowdStrike Falcon aparecem apenas como exemplos de ferramentas que poderiam apoiar uma situação semelhante, e não como tecnologias confirmadas neste incidente.
+Mandiant e Palo Alto Networks foram citadas entre as empresas que participaram da resposta. A ferramentas específicas utilizadas não foram divulgadas. No estudo completo, Splunk e CrowdStrike Falcon aparecem apenas como exemplos de ferramentas que poderiam apoiar uma situação semelhante, e não como tecnologias confirmadas neste incidente.
 
 ## Análise e reforço da proteção
 
@@ -52,10 +50,6 @@ O caso mostra que um controle básico pode ter grande importância quando proteg
 - planos, exercícios e comunicação para resposta a incidentes.
 
 De acordo com os dados públicos encontrados, podemos pensar que a janela de nove dias entre o primeiro acesso e a execução do ransomware poderia ter produzido sinais de atividade incomum. As fontes, porém, não apresentam os registros internos necessários para afirmar quais alertas existiram ou como foram tratados.
-
-## Uma comparação a partir do Brasil
-
-O PDF também apresenta uma comparação de contexto com o apagão tecnológico global de julho de 2024, que afetou instituições de saúde em São Paulo. Esse acontecimento não teve relação com o ransomware da Change Healthcare. A comparação foi incluída apenas para mostrar, a partir de uma situação mais próxima da realidade brasileira, como a dependência de sistemas e fornecedores pode alcançar o atendimento e a comunicação com pacientes.
 
 ## Evidências jornalísticas
 
@@ -81,7 +75,7 @@ Fonte: Reuters, 14 ago. 2025.
 
 ## Referências utilizadas
 
-### Fontes oficiais e institucionais
+### Fontes oficiais e institucionais públicas
 
 - [American Hospital Association - pesquisa sobre os impactos nos hospitais](https://www.aha.org/2024-03-15-aha-survey-change-healthcare-cyberattack-significantly-disrupts-patient-care-hospitals-finances)
 - [UnitedHealth Group - atualização de 7 de março de 2024](https://www.unitedhealthgroup.com/newsroom/2024/2024-03-07-uhg-update-change-healthcare-cyberattack.html)
